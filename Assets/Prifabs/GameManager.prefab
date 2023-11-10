@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1312928984999260}
+  m_IsPrefabAsset: 1
+--- !u!1 &1312928984999260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4479488978291422}
+  - component: {fileID: 114561031791570238}
+  - component: {fileID: 114147304860538170}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4479488978291422
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312928984999260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114147304860538170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312928984999260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391d575c23f06554692cb9988e4dffd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Colums: 13
+  Rows: 9
+  FloorTiles:
+  - {fileID: 1885260267124046, guid: dfda04bd173c1b4488d2e07c006663e8, type: 2}
+  - {fileID: 1427306107195390, guid: c44f670aec10a284898763f0c2e1eb93, type: 2}
+  PlayerTiles:
+  - {fileID: 1687948088838702, guid: fb2b70fbc24f5224abcce6a7ca0ba81c, type: 2}
+  EnamyTiles:
+  - {fileID: 1914463386706802, guid: 6c9479ea5fa53b2488edf6186f495946, type: 2}
+  OutterTiles:
+  - {fileID: 1105346322659914, guid: bb499e6946ede554abb62c6a92eada1a, type: 2}
+  GoalsTiles:
+  - {fileID: 1492775600089016, guid: cc2cd45ccb1373a459e300ec4dc2e4e3, type: 2}
+  - {fileID: 1694559449754856, guid: 7dc98f4692c27ae419243d54eae84584, type: 2}
+  - {fileID: 1150296723149532, guid: 64db279825fe5ef4eabf82fe378d1120, type: 2}
+  - {fileID: 1097078302872448, guid: 756db50266e2b7c45bc271a150883279, type: 2}
+  - {fileID: 1163619573018402, guid: 9aba46e23497f00438297da33fb8b2e2, type: 2}
+  - {fileID: 1267480176134226, guid: 1e166bc76cad59943a06b3e815345475, type: 2}
+  FootballTile: {fileID: 1183025398272472, guid: 7f895a55e7668954780c3819e1d8d4d2,
+    type: 2}
+  NodeScript: {fileID: 0}
+--- !u!114 &114561031791570238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312928984999260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5656650d847f0944683da19c01d08d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnDelay: 0.1
+  BoardScript: {fileID: 0}
+  PlayerList: []
+  EnemyList: []
+  PlayersTurn: 1
